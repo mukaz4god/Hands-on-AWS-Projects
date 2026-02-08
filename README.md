@@ -39,3 +39,28 @@ During a routine security review, the security team suspects that IAM permission
 
 ## Outcome
 I built a real AWS environment where I demonstrated the security impact of over-permissive IAM roles on EC2, then remediated it using least-privilege policies and validated the fix with controlled testing.
+---------------------------------------------------------------------------------------------------------------------------
+## VPC from Scratch – Day 3 Project
+**Goal:** To design, build, and verify a production-style AWS VPC with public and private networking
+
+## Scenario
+A UK-based FinTech startup, PayWave, is migrating its on-premise application to AWS. The application consists of:
+- A public-facing web application (frontend)
+- A private backend service (API & database)
+
+## Due to regulatory and security requirements: ##
+- Backend systems must not be directly accessible from the internet
+- Only the frontend should be publicly reachable
+- Private resources must still access the internet for updates and patching
+
+## Security & Architecture Requirements ##
+- Network isolation using a custom VPC
+- Separation of public and private subnets
+- Controlled internet access using Internet Gateway & NAT Gateway
+- Clear routing rules following AWS best practices
+
+## Your Role: ##
+You are acting as a Cloud / DevOps Engineer, responsible for designing and implementing a secure, production-ready VPC from scratch.
+
+## Outcome 
+I have designed and implemented a production-grade AWS VPC from scratch, ensuring secure network segmentation, adhering to real-world AWS architectural standards, and validating traffic flow through effective use of routing and gateways.
