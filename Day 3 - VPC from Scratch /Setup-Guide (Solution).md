@@ -174,7 +174,7 @@ LOCATION 's3://paywave-vpc-flow-logs/'; ```
 FROM vpc_flow_logs.flow_logs
 WHERE action = 'REJECT'
 GROUP BY srcaddr
-ORDER BY attempts DESC; ```
+ORDER BY attempts DESC; 
 
 **Outcome:** SQL‑based threat hunting on network traffic.
 
