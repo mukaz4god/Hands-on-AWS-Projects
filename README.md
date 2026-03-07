@@ -67,7 +67,7 @@ You are acting as a Cloud / DevOps Engineer, responsible for designing and imple
 I have designed and implemented a production-grade AWS VPC from scratch, ensuring secure network segmentation, adhering to real-world AWS architectural standards, and validating traffic flow through effective use of routing and gateways.
 
 ---------------------------------------------------------------------------------------------------------------------------
-## IAM Deep Dive (IAM Least Privilege & Access Control Failure) – Day 4(i) Project
+## IAM Deep Dive (IAM Least Privilege & Access Control Failure) – Day 4 Project
 **Goal:**
 Design and implement a secure administrative access architecture for EC2 instances by deploying a Bastion Host and evaluating a modern alternative using AWS Systems Manager Session Manager, while enforcing least-privilege security group rules and aligning with AWS Well-Architected Framework security best practices.
 
