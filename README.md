@@ -84,4 +84,4 @@ A regulated SaaS company is deploying backend services in AWS. For security reas
 You are the Cloud Security Engineer responsible for designing secure administrative access to private infrastructure.
 
 ## Outcome
-A secure EC2 access model was successfully implemented and validated, demonstrating controlled SSH access through a Bastion Host and a zero-trust alternative using Session Manager with IAM-based authentication, ensuring private instances remain inaccessible from the public internet while maintaining auditable and secure administrative connectivity.
+I have designed a secure EC2 access model that was successfully implemented and validated, demonstrating controlled SSH access through a Bastion Host and a zero-trust alternative using Session Manager with IAM-based authentication, ensuring private instances remain inaccessible from the public internet while maintaining auditable and secure administrative connectivity.
