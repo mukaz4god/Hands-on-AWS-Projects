@@ -120,3 +120,6 @@ To design and deploy a highly available web application architecture by implemen
 - Health monitoring
 - Automatic traffic distribution
 - High availability architecture
+
+## Outcome
+A highly available web application architecture was successfully deployed using an Application Load Balancer that distributes user traffic across multiple EC2 instances and automatically routes requests only to healthy servers.
