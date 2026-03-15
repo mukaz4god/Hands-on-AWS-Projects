@@ -18,10 +18,10 @@ The goal of this project is to secure the AWS account from day one using AWS bes
 - IAM Admin User (no root usage)
 - AWS Budgets & Alerts
 - CloudTrail (For Regions)
-- IAM Access Analyzer
+- IAM Access Analyser
 
 ## Outcome
-I demonstrated creat an AWS account with security baseline with AWS account security fundamentals which aligned with:
+I demonstrated creating an AWS account with a security baseline, with AWS account security fundamentals, which aligned with:
 - AWS Well-Architected Framework (Security Pillar)
 - CIS AWS Foundations Benchmark
 ---------------------------------------------------------------------------------------------------------------------------
@@ -60,10 +60,8 @@ A UK-based FinTech startup, PayWave, is migrating its on-premise application to 
 - Controlled internet access using Internet Gateway & NAT Gateway
 - Clear routing rules following AWS best practices
 
-## Your Role: 
-You are acting as a Cloud / DevOps Engineer, responsible for designing and implementing a secure, production-ready VPC from scratch.
-
 ## Outcome 
+
 I have designed and implemented a production-grade AWS VPC from scratch, ensuring secure network segmentation, adhering to real-world AWS architectural standards, and validating traffic flow through effective use of routing and gateways.
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -80,8 +78,27 @@ A regulated SaaS company is deploying backend services in AWS. For security reas
 - Least-privilege network rules
 - Full alignment with AWS security best practices
 
-**Your Role**
-You are the Cloud Security Engineer responsible for designing secure administrative access to private infrastructure.
-
 ## Outcome
 I have designed a secure EC2 access model that was successfully implemented and validated, demonstrating controlled SSH access through a Bastion Host and a zero-trust alternative using Session Manager with IAM-based authentication, ensuring private instances remain inaccessible from the public internet while maintaining auditable and secure administrative connectivity.
+---------------------------------------------------------------------------------------------------------------------------
+## S3 & Storage Security – Day 5 Project
+**Goal:**
+Secure cloud storage by implementing strong security controls for Amazon S3, including encryption, access management, versioning, and logging.
+
+**Technologies Used**
+- Amazon S3
+- AWS KMS
+- IAM
+- S3 Bucket Policies
+- Server Access Logging
+
+**Security Controls Implemented**
+- Block Public Access
+- Server-side Encryption (SSE-S3 and SSE-KMS)
+- Bucket Policy Access Control
+- Versioning
+- Storage Access Logging
+
+## Outcome
+I designed a secure Amazon S3 storage architecture that protects sensitive data through encryption, strict access control policies, versioning, and logging for audit and monitoring.
+
