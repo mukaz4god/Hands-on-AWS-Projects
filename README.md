@@ -83,7 +83,7 @@ I have designed a secure EC2 access model that was successfully implemented and 
 ---------------------------------------------------------------------------------------------------------------------------
 ## S3 & Storage Security – Day 5 Project
 **Goal:**
-Secure cloud storage by implementing strong security controls for Amazon S3, including encryption, access management, versioning, and logging.
+To secure cloud storage by implementing strong security controls for Amazon S3, including encryption, access management, versioning, and logging.
 
 **Technologies Used**
 - Amazon S3
@@ -102,3 +102,21 @@ Secure cloud storage by implementing strong security controls for Amazon S3, inc
 ## Outcome
 I designed a secure Amazon S3 storage architecture that protects sensitive data through encryption, strict access control policies, versioning, and logging for audit and monitoring.
 
+--------------------------------------------------------------------------------------------------------------------------
+## Elastic Load Balancing – Day 6 Project
+**Goal:**
+To design and deploy a highly available web application architecture by implementing an Application Load Balancer that distributes incoming traffic across multiple EC2 instances.
+
+**Technologies Used**
+- Amazon EC2
+- Elastic Load Balancing (ALB)
+- Target Groups
+- Health Checks
+- VPC Networking
+
+**Key Features Implemented**
+- Application Load Balancer
+- Backend target groups
+- Health monitoring
+- Automatic traffic distribution
+- High availability architecture
