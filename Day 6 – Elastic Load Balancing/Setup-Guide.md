@@ -46,25 +46,25 @@ This ensures traffic is automatically distributed and unhealthy servers are remo
      ```
      HTTP : 80
      ```
-- Proceed to Target Group creation.
+- Proceed to Target Group creation.<br/>
 **Outcome** <br/>
 The load balancer is created and ready to distribute traffic.
 
 **LAB 2 – Add Target Groups**<br/>
 Target groups define the backend servers that receive traffic from the load balancer.
 
-**Step 1 – Create Target Group**
+**Step 1 – Create Target Group** <br/>
 In the ALB setup wizard:
 - Click: ``` Create target group ```
 - Configuration:
   - Target Type: ``` Instance ```
   - Name: ``` web-target-group ```
   - Protocol: ``` HTTP ```
-  - Port: ``` web-target-group ```
+  - Port: ``` 80 ```
 - Select your VPC.
 - Click Next
 
-**Step 2 – Register Targets**
+**Step 2 – Register Targets**<br/>
 - Select your EC2 web servers.
 i.e:
 ``` 
@@ -138,7 +138,7 @@ i.e
 The load balancer successfully distributes traffic and removes unhealthy servers.
 
 **Final Project Outcome** <br>
-By completing this project, you have successfully implemented:
+By completing this project, I successfully implemented:
 - Highly available web architecture
 - Traffic distribution using Application Load Balancer
 - Backend instance management using target groups
