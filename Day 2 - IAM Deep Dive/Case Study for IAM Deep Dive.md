@@ -6,7 +6,7 @@ IAM Least Privilege Failure in EC2-to-S3 Access
 
 A company runs a backend service on EC2 that uploads application logs to Amazon S3. During a routine security review, the security team suspects that IAM permissions are overly permissive and could allow unintended access to sensitive S3 buckets.
 
-** As the Security Engineer, your task is to: **
+**As the Security Engineer, your task is to:**
 - Review IAM access
 - Demonstrate the risk
 - Apply least privilege
