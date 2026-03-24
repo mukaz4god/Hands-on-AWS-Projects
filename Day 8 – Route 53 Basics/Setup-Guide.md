@@ -54,7 +54,7 @@ Domain resolves to ALB successfully
 **LAB 4 – Enable Health Checks & Failover**<br/>
 **Step 1 – Create Health Check**
 - Route 53 → Health checks
-- Click Create health check
+- Click Create health check to point to your EC2 instance (50.10.11.123:80/)
 
 **Configure:**
 - Endpoint: ALB DNS
