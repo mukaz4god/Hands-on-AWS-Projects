@@ -78,7 +78,33 @@ I implemented:
 - Health checks for monitoring
 - Failover routing for resilience
 
+# NOTE: Two Ways to Use Route 53 with a GoDaddy Domain
+Option 1 (Recommended): Use Route 53 as your DNS provider
 
+This is the cleanest setup.
+
+**Steps:**
+- **In Route 53**:
+- Create a Hosted Zone for your domain (e.g. example.com)
+- AWS will generate 4 nameservers (NS records) <br/>
+**In GoDaddy**: Go to your domain → DNS settings
+- Replace GoDaddy nameservers with the Route 53 nameservers
+- **Back in Route 53:**
+- Create records:
+- A record → your server IP or ALB
+- CNAME → for subdomains
+
+**After propagation, Route 53 is fully managing your DNS.**
+
+**Option 2:** Keep GoDaddy DNS and just point to AWS
+
+- If you don’t want to change nameservers:
+- Stay in GoDaddy DNS and add: 
+- Add records like:
+  - A → EC2 public IP
+  - CNAME → AWS services (e.g. CloudFront)
+
+**In this Option 2 setup, Route 53 is NOT used at all — just AWS resources.**
 
 
 
