@@ -1,4 +1,4 @@
-# My-AWS-Projects
+# Hands-on AWS Projects
 
 # AWS Account & Security Baseline – Day 1 Project
 
