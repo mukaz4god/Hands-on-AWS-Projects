@@ -19,7 +19,7 @@ Private AWS service access
 
 **LAB 4 – Test Connectivity**<br/>
 1. From private EC2:
-  - aws s3 ls
+  - ```aws s3 ls```
 
 **Outcome**<br/>
 Private connectivity confirmed
