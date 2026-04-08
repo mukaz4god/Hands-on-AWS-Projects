@@ -4,8 +4,11 @@
 2. Click Create endpoint
   Create:
   - S3 endpoint
-  - DynamoDB endpoint
-
+  - DynamoDB endpoint<br/>
+Reference: 
+- https://docs.aws.amazon.com/vpc/latest/privatelink/vpc-endpoints-s3.html
+- https://docs.aws.amazon.com/neptune/latest/userguide/bulk-load-tutorial-vpc.html
+  
 **Outcome**<br/>
 Private AWS service access
 
