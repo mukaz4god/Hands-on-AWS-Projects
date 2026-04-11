@@ -51,8 +51,8 @@ You restore Linux access without rebuilding the instance.
 AWS provides the AWSSupport-ResetAccess Automation runbook for lost Linux SSH key access and Windows password/key-related recovery.
 
 1. Go to Systems Manager → Automation
-2. Click Execute automation
-3. Search for AWSSupport-ResetAccess
+2. Click Execute runbook
+3. Search for **AWSSupport-ResetAccess**
 4. Provide the affected instance ID
 5. Review required parameters
 6. Execute the runbook
@@ -90,7 +90,7 @@ Deep recovery for filesystem-level lockouts or configuration damage.
 AWS documents that AWSSupport-ResetAccess can generate a new Windows Administrator password that you decrypt with the current EC2 key pair.
 
 1. Go to Systems Manager → Automation
-2. Execute AWSSupport-ResetAccess
+2. Execute **AWSSupport-ResetAccess**
 3. Follow the documented outputs
 4. Recover or reset Windows access
 5. Test RDP or Session Manager access after recovery
