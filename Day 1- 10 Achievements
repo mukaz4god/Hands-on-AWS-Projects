@@ -1,0 +1,10 @@
+At this stage, my portfolio includes:
+
+Networking (VPC)
+Security (SG, Bastion, SSM)
+Storage Security (S3)
+Load Balancing
+Auto Scaling
+DNS (Route 53)
+Monitoring (CloudWatch)
+Auditing (CloudTrail + Athena)
