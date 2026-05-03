@@ -4,7 +4,7 @@
 
 ### Business Scenario
 
-A regulated application team runs backend EC2 instances in private subnets. These instances must access AWS services such as Amazon S3 and AWS Systems Manager without being exposed to the public internet.
+A regulated application team runs backend EC2 instances in private subnets. These instances must access AWS services such as Amazon S3 & AWS Systems Manager without being exposed to the public internet.
 
 The security team also wants to validate how Security Groups and Network ACLs behave differently so they can apply layered network controls correctly.
 
